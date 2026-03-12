@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net9.0",
+    "\\DB",
+    "\\Model",
+    "\\Service",
+    "\\Service\\Interface",
+    "\\Service\\Logic"
+  ],
+  "SelectedNode": "\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

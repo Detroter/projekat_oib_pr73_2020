@@ -1,5 +1,8 @@
-public enum Role
+namespace Autoservis.Model
 {
-   Mechanic,
-   Manager
+   public enum Role
+   {
+      Mehanicar,
+      Menager
+   }
 }

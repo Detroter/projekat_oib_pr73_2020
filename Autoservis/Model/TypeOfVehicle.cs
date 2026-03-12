@@ -1,6 +1,9 @@
-public enum TypeOfVehicle
+namespace Autoservis.Model
 {
-    Putnicko,
-    Teretno,
-    Motocikl
+    public enum TypeOfVehicle
+    {
+        Putnicko,
+        Teretno,
+        Motocikl
+    }
 }

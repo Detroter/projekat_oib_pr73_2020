@@ -1,44 +1,35 @@
 using System;
-using System.Collections.Generic;
+using System.Text.Json;
 using System.Linq;
 using Autoservis.Model;
 using Autoservis.Service.Interface;
 
-public class AuthService : IAuthService
+namespace Autoservis.Service.Logic
+{
+    public class AuthService : IAuthService
     {
-        private readonly List<User> users = new List<User>();//mora naknadno da se implementira baza iz koje ce da cita a ne da pravi listu
+        private readonly IUserRepository userRepository;
         private readonly int maxFailedLogins;
         private readonly TimeSpan durationTimeout;
-        public AuthService() : this(3, TimeSpan.FromMinutes(5)) { }
 
-        public AuthService(int failedLogins, TimeSpan timeout)
-        {
-            if (failedLogins < 1) throw new ArgumentOutOfRangeException(nameof(failedLogins));
-            if (timeout < TimeSpan.Zero) throw new ArgumentOutOfRangeException(nameof(timeout));
+        public AuthService(IUserRepository userRepository)
+        {            
+            this.userRepository = userRepository;
 
-            maxFailedLogins = failedLogins;
-            durationTimeout = timeout;
-        }
-
-        public void Register(User user)
-        {
-            if (user == null) throw new ArgumentNullException(nameof(user));
-            
-            if (users.Any(u => u.Nickname.Equals(user.Nickname)))
-                throw new InvalidOperationException("A user with the same nickname already exists.");
-
-            users.Add(user);
+            maxFailedLogins = 3;
+            durationTimeout = TimeSpan.FromMinutes(5);
         }
 
         public bool Login(string nickname, string password)
         {
-            var user = users.Find(u => u.Nickname.Equals(nickname));
+            var user = userRepository.GetUserByNickname(nickname);
             if (user == null)
-                return false; 
+                return false;
 
             if (user.TimeoutEndTime != null && user.TimeoutEndTime.Value > DateTime.UtcNow)
             {
-                throw new InvalidOperationException($"You are in a timeout until {user.TimeoutEndTime.Value:u}.");
+                var remainingTime = user.TimeoutEndTime.Value - DateTime.UtcNow;
+                throw new InvalidOperationException($"Korisnik je u timeoutu jos {remainingTime:mm\\:ss}.");
             }
 
             if (user.Password != password)
@@ -48,14 +39,32 @@ public class AuthService : IAuthService
                 if (user.FailedLoginAttempts >= maxFailedLogins)
                 {
                     user.TimeoutEndTime = DateTime.UtcNow.Add(durationTimeout);
-                    user.FailedLoginAttempts = 0; 
+                    user.FailedLoginAttempts = 0;
                 }
+
+                var errUsers = userRepository.GetAllUsers();
+                int id = errUsers.FindIndex(u => u.Nickname == user.Nickname);
+                if (id >= 0)
+                {
+                    errUsers[id] = user;
+                }
+                File.WriteAllText("C:/Users/HP/Documents/GitHub/projekat_oib_pr73_2020/Autoservis/DB/users.json", JsonSerializer.Serialize(errUsers));
 
                 return false;
             }
 
             user.FailedLoginAttempts = 0;
-            user.LockoutEndTime = null;
+            user.TimeoutEndTime = null;
+
+            var allUsers = userRepository.GetAllUsers();
+            int i = allUsers.FindIndex(u => u.Nickname == user.Nickname);
+                if (i >= 0)
+                {
+                    allUsers[i] = user;
+                }
+            File.WriteAllText("C:/Users/HP/Documents/GitHub/projekat_oib_pr73_2020/Autoservis/DB/users.json", JsonSerializer.Serialize(allUsers));
+
             return true;
         }
+    }
 }

@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\Autoservis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\Autoservis.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\Autoservis.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\Autoservis.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\Autoservis.sourcelink.json
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\bin\Debug\net9.0\Autoservis.exe
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\bin\Debug\net9.0\Autoservis.deps.json
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\bin\Debug\net9.0\Autoservis.runtimeconfig.json
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\bin\Debug\net9.0\Autoservis.dll
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\bin\Debug\net9.0\Autoservis.pdb
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\Autoservis.dll
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\refint\Autoservis.dll
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\Autoservis.pdb
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\Autoservis.genruntimeconfig.cache
+C:\Users\HP\Documents\GitHub\projekat_oib_pr73_2020\Autoservis\obj\Debug\net9.0\ref\Autoservis.dll
