@@ -5,6 +5,7 @@ namespace Autoservis.Service.Interface
     {
         List<User> GetAllUsers();
         User GetUserByNickname(string nickname);
+        void UpdateUser(User user);
     }
 }
 

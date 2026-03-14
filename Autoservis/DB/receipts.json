@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "74e5e51c-b1f4-463b-b745-22968145a186",
+    "MechanicName": "Bogdan",
+    "Date": "2026-03-14T17:07:49.0561857Z",
+    "Total": 1500
+  },
+  {
+    "Id": "010d0eb8-4923-4432-b0d8-e6b44c3ec9fe",
+    "MechanicName": "Jovan",
+    "Date": "2026-03-15T17:07:49.0561857Z",
+    "Total": 2200
+  },
+  {
+    "Id": "337c9819-c4d7-430b-9f30-8c04608ef842",
+    "MechanicName": "Jovan",
+    "Date": "2026-03-16T17:07:49.0561857Z",
+    "Total": 1300
+  },
+  {
+    "Id": "28e537c5-e952-4334-92be-a8413cb022df",
+    "MechanicName": "Jovan",
+    "Date": "2026-03-17T17:07:49.0561857Z",
+    "Total": 100
+  },
+  {
+    "Id": "d04db362-2468-45d5-a63f-9f065acc44ea",
+    "MechanicName": "Bogdan",
+    "Date": "2026-03-14T22:54:53.7362955+01:00",
+    "Total": 1275
+  },
+  {
+    "Id": "1759e8e9-85c0-4dd9-8763-02285939df43",
+    "MechanicName": "Nenad",
+    "Date": "2026-03-14T22:58:17.3373538+01:00",
+    "Total": 170
+  },
+  {
+    "Id": "bd7bfa3c-1490-49b6-8a55-2d87400df31e",
+    "MechanicName": "Bogdan",
+    "Date": "2026-03-14T23:55:35.6662206+01:00",
+    "Total": 850
+  }
+]

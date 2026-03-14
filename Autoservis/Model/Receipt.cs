@@ -9,6 +9,7 @@ namespace Autoservis.Model
 
         public Receipt(string mechanicName, DateTime date, double total)
         {
+            Id = Guid.NewGuid();
             MechanicName = mechanicName;
             Date = date;
             Total = total;

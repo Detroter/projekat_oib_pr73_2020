@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "1e0de41c-a141-4b44-a100-7c7e9fec47ba",
+    "Registration": "KG123GK",
+    "Model": "Clio",
+    "Mark": "Clio",
+    "Type": "putnicko",
+    "Price": 1500,
+    "Serviced": true
+  },
+  {
+    "Id": "7c04e1bd-8d65-48fe-8209-46f6f7ff1035",
+    "Registration": "NS123AA",
+    "Model": "Clio",
+    "Mark": "Renault",
+    "Type": "putnicko",
+    "Price": 200,
+    "Serviced": true
+  },
+  {
+    "Id": "9e577dcb-3860-4ba3-8583-eaf962a1848a",
+    "Registration": "KG215KG",
+    "Model": "OM",
+    "Mark": "Fiat",
+    "Type": "teretno",
+    "Price": 1000,
+    "Serviced": false
+  },
+  {
+    "Id": "44e65ff8-d00d-4c57-8d62-38b0e3125c18",
+    "Registration": "KG21BN",
+    "Model": "Radeon",
+    "Mark": "TVS",
+    "Type": "motocikl",
+    "Price": 350,
+    "Serviced": false
+  }
+]

@@ -1,0 +1,41 @@
+[3/14/2026 11:54:09 PM] INFO: Program je pokrenut.
+[3/14/2026 11:54:15 PM] INFO: Korisnik 'detroter' je uspešno prijavljen.
+[3/14/2026 11:54:25 PM] INFO: Menager je izabrao opciju: 2.
+[3/14/2026 11:54:25 PM] INFO: Menager prikazuje sva vozila.
+[3/14/2026 11:54:30 PM] INFO: Menager je izabrao opciju: 3.
+[3/14/2026 11:54:30 PM] INFO: Menager prikazuje sve racune.
+[3/14/2026 11:54:34 PM] INFO: Menager je izabrao opciju: 5.
+[3/14/2026 11:54:34 PM] INFO: Menager se vraca na login.
+[3/14/2026 11:54:34 PM] INFO: Korisnik detroter se odjavio.
+[3/14/2026 11:54:42 PM] INFO: Korisnik 'mehanicar' je uspešno prijavljen.
+[3/14/2026 11:54:56 PM] INFO: Mehanicar mehanicar je izabrao opciju: 1.
+[3/14/2026 11:54:56 PM] INFO: Nadjeno je 1 ne servisiranih vozila.
+[3/14/2026 11:54:56 PM] INFO: Mehanicar mehanicar prikazuje sva neservisirana vozila.
+[3/14/2026 11:55:22 PM] INFO: Mehanicar mehanicar je izabrao opciju: 2.
+[3/14/2026 11:55:35 PM] INFO: Nadjeno je 1 ne servisiranih vozila.
+[3/14/2026 11:55:35 PM] INFO: Servis vozila KG215KG je zavrsen od strane mehanicara Bogdan.
+[3/14/2026 11:55:35 PM] INFO: Dodat je novi racun za servis vozila KG215KG.
+[3/14/2026 11:55:35 PM] INFO: Mehanicar mehanicar je servisirao vozilo sa registracijom: KG215KG i izdao racun.
+[3/14/2026 11:56:20 PM] INFO: Mehanicar mehanicar je izabrao opciju: 4.
+[3/14/2026 11:56:20 PM] INFO: Mehanicar mehanicar se vraca na login.
+[3/14/2026 11:56:20 PM] INFO: Korisnik mehanicar se odjavio.
+[3/14/2026 11:58:21 PM] INFO: Korisnik 'menager' je uspešno prijavljen.
+[3/14/2026 11:58:30 PM] INFO: Menager je izabrao opciju: 4.
+[3/14/2026 11:58:30 PM] INFO: Menager je izabrao da izadje iz programa.
+[3/15/2026 12:00:35 AM] INFO: Program je pokrenut.
+[3/15/2026 12:00:55 AM] WARNING: Pogresna lozinka za korisnika: mehanicar.
+[3/15/2026 12:00:58 AM] WARNING: Pogresna lozinka za korisnika: mehanicar.
+[3/15/2026 12:00:59 AM] WARNING: Korisnik 'mehanicar' je dostigao maksimalan broj neuspešnih prijava.
+[3/15/2026 12:00:59 AM] WARNING: Pogresna lozinka za korisnika: mehanicar.
+[3/15/2026 12:01:07 AM] WARNING: Korisnik je u timeoutu jos 04:51.
+[3/15/2026 12:01:07 AM] WARNING: Korisnik mehanicar je u timeoutu. Poruka: Korisnik je u timeoutu jos 04:51.
+[3/15/2026 12:02:42 AM] WARNING: Pogresna lozinka za korisnika: detroter.
+[3/15/2026 12:02:44 AM] WARNING: Pogresna lozinka za korisnika: detroter.
+[3/15/2026 12:02:45 AM] WARNING: Korisnik 'detroter' je dostigao maksimalan broj neuspešnih prijava.
+[3/15/2026 12:02:45 AM] WARNING: Pogresna lozinka za korisnika: detroter.
+[3/15/2026 12:02:46 AM] WARNING: Korisnik je u timeoutu jos 04:58.
+[3/15/2026 12:02:46 AM] WARNING: Korisnik detroter je u timeoutu. Poruka: Korisnik je u timeoutu jos 04:58.
+[3/15/2026 12:03:04 AM] WARNING: Pogresna lozinka za korisnika: menager.
+[3/15/2026 12:03:06 AM] INFO: Korisnik 'menager' je uspešno prijavljen.
+[3/15/2026 12:03:10 AM] INFO: Menager je izabrao opciju: 4.
+[3/15/2026 12:03:10 AM] INFO: Menager je izabrao da izadje iz programa.
