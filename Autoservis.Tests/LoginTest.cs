@@ -24,7 +24,22 @@ namespace Autoservis.Tests
         }
 
         [Test]
-        public void Login_InvalidCredentials_ReturnsFalse()
+        public void LoginCorrectPassword()
+        {
+            var name = "noNameNeeded";
+            var surname = "noSurnameNeeded";
+            var nickname = "testtest";
+            var password = "correctpassword";
+            var user = new User {Name = name, Surname = surname, Nickname = nickname, Password = "correctpassword" };
+            _mockRepo.Setup(ur => ur.GetUserByNickname(nickname)).Returns(user);
+
+            var result = _authService.Login(nickname, password);
+
+            Assert.That(result,Is.True);
+        }
+
+        [Test]
+        public void LoginWrongPassword()
         {
             var name = "noNameNeeded";
             var surname = "noSurnameNeeded";
@@ -39,7 +54,7 @@ namespace Autoservis.Tests
         }
 
         [Test]
-        public void Login_UserNotFound_ReturnsFalse()
+        public void NoUserExistingLogin()
         {
             var nickname = "noNickNeeded";
             var password = "correctpassword";

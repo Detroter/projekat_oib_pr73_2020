@@ -21,8 +21,8 @@ class Program
 
         loggerService.Log(ErrorType.INFO, "Program je pokrenut.");
 
-        //var now = DateTime.Now.TimeOfDay;
-        var now = new TimeSpan(9, 0, 0);
+        var now = DateTime.Now.TimeOfDay;
+        //var now = new TimeSpan(9, 0, 0);
 
         if (now >= new TimeSpan(8, 0, 0) && now < new TimeSpan(12, 0, 0))
         {
