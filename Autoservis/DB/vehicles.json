@@ -34,5 +34,40 @@
     "Type": "motocikl",
     "Price": 350,
     "Serviced": false
+  }, {
+    "Id": "62b3f92f-bf48-4dee-bc09-7b0ff4b480a3",
+    "Registration": "RU19IJ",
+    "Model": "Duster",
+    "Mark": "Dacia",
+    "Type": "putnicko",
+    "Price": 37000,
+    "Serviced": false
+  },
+  {
+    "Id": "7462df08-a927-4aed-915f-966281b8c2fc",
+    "Registration": "PB737PP",
+    "Model": "Tiguan",
+    "Mark": "Wolkswagen",
+    "Type": "putnicko",
+    "Price": 15000,
+    "Serviced": false
+  },
+  {
+    "Id": "cce4856e-c531-40f6-bad2-7af7ed4797ae",
+    "Registration": "BG221TR",
+    "Model": "IVECO",
+    "Mark": "FAP",
+    "Type": "teretno",
+    "Price": 10000,
+    "Serviced": false
+  },
+  {
+    "Id": "c0042c62-8d86-48ed-af79-d928ee7bb80c",
+    "Registration": "ST999AN",
+    "Model": "Panigale",
+    "Mark": "Ducati",
+    "Type": "motocikl",
+    "Price": 3500,
+    "Serviced": false
   }
 ]

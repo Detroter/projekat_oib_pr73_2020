@@ -38,5 +38,43 @@
     "Role": "Mehanicar",
     "FailedLoginAttempts": 0,
     "TimeoutEndTime": null
+  },
+  {
+    "Id": "83bc92ab-e9e8-4cce-8b7a-0223a8f559ab",
+    "Nickname": "zirion",
+    "Password": "pera",
+    "Name": "Sava",
+    "Surname": "Ocokoljic",
+    "Role": "Menager",
+    "FailedLoginAttempts": 0,
+    "TimeoutEndTime": null
+  },{
+    "Id": "e08d33e3-9081-4b81-9101-cf1b636c7834",
+    "Nickname": "dax",
+    "Password": "oib",
+    "Name": "Danijel",
+    "Surname": "Jovanovic",
+    "Role": "Mehanicar",
+    "FailedLoginAttempts": 0,
+    "TimeoutEndTime": null
+  },{
+    "Id": "ce57f253-5a6a-4c5e-862c-8f65774039db",
+    "Nickname": "akg",
+    "Password": "sound",
+    "Name": "Heiser",
+    "Surname": "Saint",
+    "Role": "Mehanicar",
+    "FailedLoginAttempts": 0,
+    "TimeoutEndTime": null
+  },{
+    "Id": "339e608e-9867-44fb-949e-22b28f870efb",
+    "Nickname": "intel",
+    "Password": "8gen",
+    "Name": "Eliot",
+    "Surname": "Page",
+    "Role": "Mehanicar",
+    "FailedLoginAttempts": 0,
+    "TimeoutEndTime": null
   }
+
 ]
